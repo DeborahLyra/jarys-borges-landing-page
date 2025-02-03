@@ -4,8 +4,8 @@ import logo from '../../../public/imgs/logo_jarys.png';
 
 const navigation = [
   { name: 'Sobre Mim', href: '#aboutMe', current: false },
-  { name: 'Livros', href: '#books', current: false },
-  { name: 'Agende uma Consulta', href: '#contact', current: true },
+  { name: 'Tratamentos', href: '#treatments', current: false },
+  { name: 'Agende sua Consulta', href: '#contact', current: true },
 ];
 
 function classNames(...classes: string[]) {

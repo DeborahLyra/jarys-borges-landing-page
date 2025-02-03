@@ -2,7 +2,7 @@ export function AboutMe() {
     return (
         <div className="p-8 w-full bg-pureWhite" id="aboutMe">
             <section className="mb-6">
-                <h2 className="font-bold text-2xl mb-4 text-center sm:text-left">Sobre Mim</h2>
+                <h2 className="font-bold text-2xl mb-4 text-blue-900 text-center sm:text-left">Sobre Mim</h2>
             </section>
 
             <div className="flex flex-col sm:flex-row items-center sm:items-start sm:justify-around">

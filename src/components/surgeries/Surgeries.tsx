@@ -61,8 +61,8 @@ const surgeries = [
 
 export function Surgeries() {
     return (
-        <div id="surgeries" className="p-6 max-w-full">
-            <h2 className="text-3xl font-bold text-blue-900 mb-6">Cirurgias</h2>
+        <div className="p-6 max-w-full" id='treatments'>
+            <h2 className="text-3xl font-bold text-blue-900 mb-6">Tratamentos</h2>
             <div className="text-center mb-6">
                 <p className="text-lg text-gray-700">
                     Ofereço atendimento personalizado em consultório e tratamentos variados,
