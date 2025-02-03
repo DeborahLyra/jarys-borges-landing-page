@@ -23,7 +23,7 @@ export function Footer() {
                         />
                     </a>
                     <a
-                        href="https://www.instagram.com/semiramispradopsicologa?igsh=MWloMnl0MmFhNXg4Nw=="
+                        href=""
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Instagram"
@@ -36,7 +36,7 @@ export function Footer() {
                         />
                     </a>
                     <a
-                        href="https://api.whatsapp.com/send?phone=5581989815885&text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20consulta%20com%20Dr.%20Járys%20Borba%20"
+                        href=""
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Whatsapp"
