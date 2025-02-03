@@ -1,5 +1,5 @@
 import image from '../../../public/imgs/jarys_borges_andrologista.png';
-import { WhatsappLogo, MapPin, Phone } from 'phosphor-react';
+import { WhatsappLogo, MapPin} from 'phosphor-react';
 
 const contact = [
     {
