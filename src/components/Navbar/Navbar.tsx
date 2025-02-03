@@ -31,7 +31,7 @@ export function Navbar() {
               <img
                 alt="Logo Jáyrs Borba"
                 src={logo}
-                className="scale-250 h-6 w-auto mx-4"
+                className="scale-250 h-6 w-auto mx-4 mt-2"
               />
             </div>
             <div className="hidden sm:ml-6 sm:block">
