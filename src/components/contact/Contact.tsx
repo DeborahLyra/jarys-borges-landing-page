@@ -1,21 +1,21 @@
-import image from '../../../public/imgs/contact-photo.jpeg';
+import image from '../../../public/imgs/jarys_borges_andrologista.png';
 import { WhatsappLogo, MapPin, Phone } from 'phosphor-react';
 
 const contact = [
     {
         link: "https://maps.app.goo.gl/LnjP9yiw3BTfvn137",
         icon: MapPin,
-        text: 'RioMar Trade Center - Av. República do Líbano, 251 - 206 - Pina, Recife - PE',
+        text: 'Andros Recife: Empresarial RioMar Trade Center, Torre 3, sala 206',
     },
     {
-        link: "https://api.whatsapp.com/send?phone=5581989815885&text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20consulta%20com%20Semiramis%20Prado%20",
+        link: "https://maps.app.goo.gl/VgvGi1w76JvneivW9",
+        icon: MapPin,
+        text: 'Uroagreste: Rua Rodrigues de Abreu, nº 102, Maurício de Nassau, Caruaru',
+    },
+    {
+        link: "https://api.whatsapp.com/send?phone=5581993169020&text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20consulta%20com%20Dr.%20Járys%20Borba%20",
         icon: WhatsappLogo,
         text: 'Entre em contato pelo WhatsApp',
-    },
-    {
-        link: 'tel: (81)9.8981-5885',
-        icon: Phone,
-        text: 'Telefone para contato: (81)9.8981-5885',
     },
 ];
 
@@ -23,10 +23,7 @@ export function Contact() {
     return (
         <div className="relative w-full p-8 rounded-lg bg-pureWhite overflow-hidden" id="contact">
             <section className="mb-6 text-center">
-                <h2 className="font-bold text-2xl mb-4 text-deepBlue text-center sm:text-left">Agende uma Consulta</h2>
-                <p className="text-xl mb-4 font-bold text-center sm:text-left text-skyBlue">
-                    Clínica Andros Recife - Saúde Integral Masculina.
-                </p>
+                <h2 className="font-bold text-2xl mb-4 text-deepBlue text-center sm:text-left">Agende sua Consulta!</h2>
             </section>
 
             <section className="flex flex-col md:flex-row items-center justify-between bg-skyBlue/70 p-6 rounded-lg gap-6">

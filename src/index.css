@@ -26,7 +26,8 @@ a {
 
 ::-webkit-scrollbar {
   width: .5rem;
-  background-color: rgb(26, 23, 31);
+  background-color: #f1f1f1;
+  
 }
 
 ::-webkit-scrollbar-thumb {
