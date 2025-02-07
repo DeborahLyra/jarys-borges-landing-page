@@ -9,7 +9,7 @@ export function AboutMe() {
 
                 <section className="max-w-full sm:max-w-96 mb-6 sm:mb-0 px-4">
                     <p className="">
-                        Sou Urologista e Andrologista.
+                        <span className="text-steelBlue font-bold">Sou Urologista e Andrologista. </span>
                         Me dedico aos cuidados com a saúde masculina há mais de 15 anos. Sou especialista em Infertilidade Masculina e Reprodução Humana, Doença de Peyronie, Disfunção Erétil, Vasectomia e sua Reversão.
                         Atendo em Recife e em Caruaru, e também faço consultas online.
                         Presidente 2024-2025 da SBU-PE (Sociedade Brasileira de Urologia, Seccional Pernambuco).
@@ -20,13 +20,13 @@ export function AboutMe() {
 
                 </section>
 
-                <div className="hidden sm:block w-1 h-96 bg-skyBlue"></div>
+                <div className="hidden sm:block w-1 h-96 bg-softGray"></div>
 
                 <section className="max-w-full sm:max-w-96 px-4">
                     <h3 className="font-semibold text-lg text-gray-700">Currículo</h3>
                     <article>
                         <ul className="list-inside text-gray-600 space-y-1">
-                            <li>Membro da International Society of Sexual Medicine</li>
+                            <li className="text-steelBlue font-bold">Membro da International Society of Sexual Medicine</li>
                             <li>Membro do Comitê Científico da ABEMSS (Associação Brasileira de Estudos em Medicina e Saúde Sexual)</li>
                             <li>Coordenador da Residência de Urologia do Hospital Universitário Oswaldo Cruz (UPE)</li>
                         </ul>

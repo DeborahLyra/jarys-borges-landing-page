@@ -1,11 +1,12 @@
 import { FacebookLogo, InstagramLogo, YoutubeLogo } from 'phosphor-react';
-import logo from "../../../public/imgs/logo_jarys.png"
+import logo from "../../../public/imgs/jarys_borges_logo_footer.png"
+
 export function Footer() {
     return (
         <footer className="bg-pureWhite text-deepBlue p-8 border-t-4 border-skyBlue">
             <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
                 <div>
-                    <img src={logo} alt="" className="scale-250 h-8 w-auto mx-4"/>
+                    <img src={logo} alt="" className="scale-200 h-4 w-auto mx-8"/>
                 </div>
 
                 <div className="flex justify-center gap-6">
@@ -14,25 +15,25 @@ export function Footer() {
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Facebook"
-                        className="group relative flex items-center justify-center w-12 h-12 rounded-full bg-skyBlue hover:bg-deepBlue transition-all"
+                        className="group relative flex items-center justify-center w-12 h-12 rounded-full bg-deepBlue hover:bg-skyBlue transition-all"
                     >
                         <FacebookLogo
                             size={30}
                             weight="fill"
-                            className="text-pureWhite group-hover:text-skyBlue transition-colors"
+                            className="text-pureWhite group-hover:text-deepBlue transition-colors"
                         />
                     </a>
                     <a
-                        href=""
+                        href="https://www.instagram.com/jarysborges_andrologia/"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Instagram"
-                        className="group relative flex items-center justify-center w-12 h-12 rounded-full bg-skyBlue hover:bg-deepBlue transition-all"
+                        className="group relative flex items-center justify-center w-12 h-12 rounded-full bg-deepBlue hover:bg-skyBlue transition-all"
                     >
                         <InstagramLogo
                             size={30}
                             weight="fill"
-                            className="text-pureWhite group-hover:text-skyBlue transition-colors"
+                            className="text-pureWhite  group-hover:text-deepBlue transition-colors"
                         />
                     </a>
                     <a
@@ -40,12 +41,12 @@ export function Footer() {
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="Whatsapp"
-                        className="group relative flex items-center justify-center w-12 h-12 rounded-full bg-skyBlue hover:bg-deepBlue transition-all"
+                        className="group relative flex items-center justify-center w-12 h-12 rounded-full bg-deepBlue hover:bg-skyBlue transition-all"
                     >
                         <YoutubeLogo
                             size={30}
                             weight="fill"
-                            className="text-pureWhite group-hover:text-skyBlue transition-colors"
+                            className="text-pureWhite  group-hover:text-deepBlue transition-colors"
                         />
                     </a>
                 </div>

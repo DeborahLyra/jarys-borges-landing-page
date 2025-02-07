@@ -1,5 +1,5 @@
-import image from '../../../public/imgs/jarys_borges_andrologista.png';
-import { WhatsappLogo, MapPin} from 'phosphor-react';
+import image from '../../../public/imgs/jarys_borges_contact.png';
+import { WhatsappLogo, MapPin, InstagramLogo} from 'phosphor-react';
 
 const contact = [
     {
@@ -16,6 +16,11 @@ const contact = [
         link: "https://api.whatsapp.com/send?phone=5581993169020&text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20consulta%20com%20Dr.%20Járys%20Borba%20",
         icon: WhatsappLogo,
         text: 'Entre em contato pelo WhatsApp',
+    },
+    {
+        link: "https://www.instagram.com/jarysborges_andrologia/",
+        icon: InstagramLogo,
+        text: 'Me siga no Instagram!',
     },
 ];
 

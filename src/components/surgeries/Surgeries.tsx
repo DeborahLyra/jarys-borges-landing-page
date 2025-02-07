@@ -1,11 +1,11 @@
 const surgeries = [
     {
-        name: "Varicocele microcirúrgica ",
+        name: "Varicocele Microcirúrgica ",
         description:
             "Método mais eficiente e seguro para tratar a varicocele e melhorar a fertilidade masculina"
     },
     {
-        name: "Disfunções sexuais ",
+        name: "Disfunções Sexuais ",
         description:
             "Avaliação e tratamento da disfunção erétil (“impotência”) e dos distúrbios da ejaculação (precoce, retrógrada e anejaculação)."
     },
@@ -26,29 +26,29 @@ const surgeries = [
             "Cirurgia que reconecta os ductos deferentes, restaurando a fertilidade após uma vasectomia.",
     },
     {
-        name: "Implante de prótese peniana",
+        name: "Implante de Prótese Peniana",
         description:
             "Cirurgia para tratamento definitivo da disfunção erétil, com opções de próteses semirrígida ou inflável.",
     },
     {
-        name: "Estética genital masculina",
+        name: "Estética Genital Masculina",
         description:
             "Postectomia, engrossamento peniano e outros tratamentos para cuidar da aparência e saúde de suas partes íntimas.",
     },
     {
-        name: "Infertilidade masculina",
+        name: "Infertilidade Masculina",
         description:
             "Captação de espermatozoides por punção de epidídimo, Microdissecção Testicular, dentre outras técnicas em reprodução assistida",
     },
 
     {
-        name: "Doenças testiculares",
+        name: "Doenças Testiculares",
         description:
             "Tratamento da Hidrocele, Neoplasias Testiculares, dentre outras.",
     },
    
     {
-        name: "Reposição de testosterona ",
+        name: "Reposição de Testosterona ",
         description:
             "Para o tratamento de Hipogonadismo e melhora da qualidade de vida.",
     },
@@ -62,9 +62,9 @@ const surgeries = [
 export function Surgeries() {
     return (
         <div className="p-6 max-w-full" id='treatments'>
-            <h2 className="text-3xl font-bold text-blue-900 mb-6">Tratamentos</h2>
+            <h2 className="text-3xl font-bold text-deepBlue mb-6">Tratamentos</h2>
             <div className="text-center mb-6">
-                <p className="text-lg text-gray-700">
+                <p className="text-lg text-steelBlue">
                     Ofereço atendimento personalizado em consultório e tratamentos variados,
                     podendo ser cirúrgicos e não. Também posso direcionar para terapias de apoio
                     multidisciplinar.
@@ -74,7 +74,7 @@ export function Surgeries() {
                 {surgeries.map((item) => (
                     <div
                         key={item.name}
-                        className="flex-shrink-0 w-60 p-4 bg-blue-800 text-white rounded-xl shadow-md transition-transform hover:scale-105"
+                        className="flex-shrink-0 w-60 p-4 bg-deepBlue text-white rounded-xl shadow-md transition-transform hover:scale-105"
                     >
                         <h3 className="text-lg font-semibold mb-2">{item.name}</h3>
                         <p className="text-sm">{item.description}</p>

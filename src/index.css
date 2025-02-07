@@ -31,7 +31,7 @@ a {
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: rgb(39, 71, 111);
+  background-color: #bf9c5a;
   border-radius: 100px;
 }
 

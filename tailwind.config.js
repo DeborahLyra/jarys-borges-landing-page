@@ -7,16 +7,19 @@ export default {
   theme: {
     extend: {
       scale: {
-        '175': '1.75', 
-        '200': '2',    
-        '250': '2.5',  
-        '300': '3',    
+        '175': '1.75',
+        '200': '2',
+        '250': '2.5',
+        '300': '3',
       },
       colors: {
-        deepBlue: '#012b5f',       // Azul Escuro
-        skyBlue: '#5991d7',        // Azul Claro
-        pureWhite: '#ffffff',      // Branco Puro
-        goldenBeige: '#bf9c5a',    // Bege Dourado
+        deepBlue: '#012b5f',       // Azul Escuro  
+        skyBlue: '#5991d7',        // Azul Claro  
+        pureWhite: '#ffffff',      // Branco Puro  
+        goldenBeige: '#bf9c5a',    // Bege Dourado  
+        steelBlue: '#314257',      // Azul Aço  
+        softGray: '#cbd0d5',       // Cinza Suave 
+
       },
     },
   },

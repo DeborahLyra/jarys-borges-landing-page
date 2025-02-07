@@ -6,7 +6,7 @@ export function Banner() {
         <div className="flex flex-col md:flex-row items-center justify-between h-auto md:h-[550px] bg-gradient-to-r from-deepBlue to-skyBlue p-6 md:p-10 shadow-xl relative">
         <div className="w-full md:w-1/2 text-center md:text-left mb-8 md:mb-0">
             <h1 className="text-4xl md:text-5xl font-bold text-pureWhite mb-4">Járys Borges</h1>
-            <h3 className="text-2xl md:text-3xl text-skyBlue mb-6">Urologista - CRM 14407-PE | RQE 12218</h3>
+            <h3 className="text-2xl md:text-3xl text-skyBlue mb-6">Urologia e Andrologia</h3>
         </div>
         <div className="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
             <div className="relative">
