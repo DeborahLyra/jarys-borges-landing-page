@@ -9,7 +9,7 @@ export function Footer() {
                     <img src={logo} alt="" className="scale-200 h-4 w-auto mx-8"/>
                 </div>
 
-                <div className="flex justify-center gap-6">
+                <div className="flex justify-center gap-6 lg:mr-8">
                     <a
                         href="https://www.facebook.com/profile.php?id=100083296373694"
                         target="_blank"

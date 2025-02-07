@@ -13,7 +13,7 @@ const contact = [
         text: 'Uroagreste: Rua Rodrigues de Abreu, nº 102, Maurício de Nassau, Caruaru',
     },
     {
-        link: "https://api.whatsapp.com/send?phone=5581993169020&text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20consulta%20com%20Dr.%20Járys%20Borba%20",
+        link: "https://api.whatsapp.com/send?phone=5581993169020&text=Ol%C3%A1,%20gostaria%20de%20agendar%20uma%20consulta%20com%20Dr.%20Járys%20Borges%20",
         icon: WhatsappLogo,
         text: 'Entre em contato pelo WhatsApp',
     },
