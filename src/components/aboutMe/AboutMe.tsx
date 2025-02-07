@@ -2,7 +2,7 @@ export function AboutMe() {
     return (
         <div className="p-8 w-full bg-pureWhite" id="aboutMe">
             <section className="mb-6">
-                <h2 className="font-bold text-2xl mb-4 text-blue-900 text-center sm:text-left">Sobre Mim</h2>
+                <h2 className="font-bold text-2xl mb-4 text-deepBlue text-center sm:text-left">Sobre Mim</h2>
             </section>
 
             <div className="flex flex-col sm:flex-row items-center sm:items-start sm:justify-around">
@@ -15,7 +15,7 @@ export function AboutMe() {
                         Presidente 2024-2025 da SBU-PE (Sociedade Brasileira de Urologia, Seccional Pernambuco).
                         Venho frequentando congressos de Medicina Sexual, com oportunidade de palestrar e apresentar trabalhos em alguns deles, além de revisar e de participar em algumas publicações de artigos científicos.
                     </p>
-                    <strong className="block mt-4 text-lg">Járys Borges Cabral Júnior</strong>
+                    <strong className="block mt-4 text-lg text-steelBlue">Járys Borges Cabral Júnior</strong>
                     <span className="block sm:max-w-96 mb-6 sm:mb-0">CRM 14407-PE | RQE 12218</span>
 
                 </section>
