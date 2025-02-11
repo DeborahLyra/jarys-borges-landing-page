@@ -12,18 +12,18 @@ const surgeries = [
     {
         name: "Vasectomia",
         description:
-            "Cirurgia que reconecta os ductos deferentes, restaurando a fertilidade após uma vasectomia.",
+            "Procedimento para esterilização permanente. Cirurgia que impede a passagem de espermatozoides para a ejaculação.",
     },
 
     {
         name: "Reversão de Vasectomia",
         description:
-            "Cirurgia para correção da curvatura peniana, quando a mesma dificulta a atividade sexual.",
+            "Cirurgia que reconecta os ductos deferentes, restaurando a fertilidade após uma vasectomia.",
     },
     {
         name: "Doença de Peyronie",
         description:
-            "Cirurgia que reconecta os ductos deferentes, restaurando a fertilidade após uma vasectomia.",
+            "Cirurgia para correção da curvatura peniana, quando a mesma dificulta a atividade sexual.",
     },
     {
         name: "Implante de Prótese Peniana",
@@ -66,7 +66,7 @@ export function Surgeries() {
             <div className="text-center mb-6">
                 <p className="text-lg text-steelBlue">
                     Ofereço atendimento personalizado em consultório e tratamentos variados,
-                    podendo ser cirúrgicos e não. Também posso direcionar para terapias de apoio
+                    podendo ser cirúrgico e não. Também posso direcionar para terapias de apoio
                     multidisciplinar.
                 </p>
             </div>
