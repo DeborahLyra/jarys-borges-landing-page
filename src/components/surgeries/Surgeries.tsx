@@ -38,7 +38,7 @@ const surgeries = [
     {
         name: "Infertilidade Masculina",
         description:
-            "Captação de espermatozoides por punção de epidídimo, Microdissecção Testicular, dentre outras técnicas em reprodução assistida",
+            "Captação de espermatozoides por punção de epidídimo, Microdissecção Testicular, dentre outras técnicas em reprodução assistida.",
     },
 
     {

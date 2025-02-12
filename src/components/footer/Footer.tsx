@@ -37,10 +37,10 @@ export function Footer() {
                         />
                     </a>
                     <a
-                        href=""
+                        href="https://www.youtube.com/@jarysborges_andrologista"
                         target="_blank"
                         rel="noopener noreferrer"
-                        aria-label="Whatsapp"
+                        aria-label="youtube"
                         className="group relative flex items-center justify-center w-12 h-12 rounded-full bg-deepBlue hover:bg-skyBlue transition-all"
                     >
                         <YoutubeLogo

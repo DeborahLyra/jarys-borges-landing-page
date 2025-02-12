@@ -18,7 +18,9 @@ export default {
         pureWhite: '#ffffff',      // Branco Puro  
         goldenBeige: '#bf9c5a',    // Bege Dourado  
         steelBlue: '#314257',      // Azul Aço  
-        softGray: '#cbd0d5',       // Cinza Suave 
+        softGray: '#cbd0d5',       // Cinza Suave
+        brightGreen: '#39b44c',     // Verde Whatsapp
+        lightGreen: '#57b565',     // Verde Whatsapp
 
       },
     },
