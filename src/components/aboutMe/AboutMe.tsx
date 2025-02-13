@@ -32,7 +32,7 @@ export function AboutMe() {
                         </ul>
                     </article>
                     <article className="pt-4">
-                        <h3 className="font-semibold text-lg text-gray-700">Currículo</h3>
+                        <h3 className="font-semibold text-lg text-gray-700">Formação</h3>
                         <ul className="list-inside text-gray-600 space-y-1">
                             <li>Graduação pela UFPE (2002)</li>
                             <li>Residência de Urologia no Hospital Getulio Vargas (2006-2009)</li>

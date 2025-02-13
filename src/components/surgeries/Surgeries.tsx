@@ -66,7 +66,7 @@ export function Surgeries() {
             <div className="text-center mb-6">
                 <p className="text-lg text-steelBlue">
                     Ofereço atendimento personalizado em consultório e tratamentos variados,
-                    podendo ser cirúrgico e não. Também posso direcionar para terapias de apoio
+                    podendo ser cirúrgico ou não. Também posso direcionar para terapias de apoio
                     multidisciplinar.
                 </p>
             </div>
