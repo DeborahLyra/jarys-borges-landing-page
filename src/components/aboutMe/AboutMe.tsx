@@ -23,17 +23,17 @@ export function AboutMe() {
                 <div className="hidden sm:block w-1 h-96 bg-softGray"></div>
 
                 <section className="max-w-full sm:max-w-96 px-4">
-                    <h3 className="font-semibold text-lg text-gray-700">Currículo</h3>
+                    <h3 className="font-semibold text-lg text-steelBlue">Currículo</h3>
                     <article>
-                        <ul className="list-inside text-gray-600 space-y-1">
+                        <ul className="list-inside space-y-1">
                             <li className="text-steelBlue font-bold">Membro da International Society of Sexual Medicine</li>
                             <li>Membro do Comitê Científico da ABEMSS (Associação Brasileira de Estudos em Medicina e Saúde Sexual)</li>
                             <li>Coordenador da Residência de Urologia do Hospital Universitário Oswaldo Cruz (UPE)</li>
                         </ul>
                     </article>
                     <article className="pt-4">
-                        <h3 className="font-semibold text-lg text-gray-700">Formação</h3>
-                        <ul className="list-inside text-gray-600 space-y-1">
+                        <h3 className="font-semibold text-lg text-steelBlue">Formação</h3>
+                        <ul className="list-inside space-y-1">
                             <li>Graduação pela UFPE (2002)</li>
                             <li>Residência de Urologia no Hospital Getulio Vargas (2006-2009)</li>
                             <li>Fellow of the Multidisciplinary Joint Committee of Sexual Medicine em 2020 (Sociedade Européia de Medicina Sexual)</li>
