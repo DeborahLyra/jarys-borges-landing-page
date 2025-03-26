@@ -12,7 +12,7 @@ export function Banner() {
             <div className="relative">
                 <img 
                     src={profile} 
-                    alt="Semíramis Profile" 
+                    alt="Járys Profile" 
                     className="h-[300px] md:h-[500px] w-auto rounded-xl shadow-lg object-cover"
                 />
                 <div className="absolute top-[-10px] left-[-10px] w-full h-full border-4 border-goldenBeige rounded-xl -z-10"></div>
